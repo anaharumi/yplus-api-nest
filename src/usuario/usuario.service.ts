@@ -1,10 +1,10 @@
 /* eslint-disable prettier/prettier */
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { ListaUsuarioDTO } from './dto/ListaUsuario.dto';
+import { ListaUsuarioDTO } from './dto/listaUsuario.dto';
 import { UsuarioEntity } from './usuario.entity';
 import { Repository } from 'typeorm';
-import { AtualizaUsuarioDTO } from './dto/AtualizaUsuario.dto';
+import { AtualizaUsuarioDTO } from './dto/atualizaUsuario.dto';
 
 @Injectable()
 export class UsuarioService {
